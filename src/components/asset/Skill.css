@@ -1,0 +1,11 @@
+#card{
+    height: 30vh;
+    background-color: #C2CAD0;
+}
+
+#btn{
+    background-color: #E7717D;
+    float: right;
+    position: absolute;
+    top: 80%;
+}
