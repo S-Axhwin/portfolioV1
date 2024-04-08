@@ -19,8 +19,8 @@ const Exp2 = () => {
                   className="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>React JS</h3>
+                  <p>aced</p>
                 </div>
               </article>
               <article>
@@ -30,8 +30,8 @@ const Exp2 = () => {
                   className="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>Tailwind CSS</h3>
+                  <p>aced</p>
                 </div>
               </article>
               <article>
@@ -42,7 +42,7 @@ const Exp2 = () => {
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Intermediate</p>
+                  <p>aced</p>
                 </div>
               </article>
               <article>
@@ -52,7 +52,7 @@ const Exp2 = () => {
                   className="icon"
                 />
                 <div>
-                  <h3>React JS</h3>
+                  <h3>3JS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -79,7 +79,18 @@ const Exp2 = () => {
                   className="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
+                  <h3>Express API</h3>
+                  <p>aced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src={imgSrc}
+                  alt="Experience icon"
+                  className="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -90,8 +101,8 @@ const Exp2 = () => {
                   className="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h3>MongoDB</h3>
+                  <p>aced</p>
                 </div>
               </article>
             </div>

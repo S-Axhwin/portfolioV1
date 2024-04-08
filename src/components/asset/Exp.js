@@ -25,9 +25,8 @@ const Exp = () => {
                 <b> (1 years )</b> <br />
                 Frontend Development in
                 <br />
-                <li>React</li>
-                <li>Angular</li>
-                <li>Firebase</li>
+                <li>React JS (1 year)</li>
+                
               </p>
             </div>
             <div className="details-container">

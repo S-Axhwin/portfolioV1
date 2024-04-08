@@ -11,7 +11,7 @@ const Home = () => {
   const skills =[
     {
       skill: 'React JS',
-      exp: '6 months',
+      exp: '1 year',
       details: 'Worked in Advanced Project for 5 months',
     },
     {
@@ -29,7 +29,6 @@ const Home = () => {
   ]
   return (
     <>
-    <Navbar place={'Home'} />
     <Herosection/>
     <Exp/>
     <Exp2></Exp2>

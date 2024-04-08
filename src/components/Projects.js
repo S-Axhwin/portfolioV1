@@ -4,31 +4,32 @@ import ProTemp from './asset/ProTemp';
 import calImg from './asset/caImg.png'
 import Exptracker from './asset/expTrack.png'
 import Job from './asset/jobPro.png'
-
+import jobport1 from "./asset/jobport1.png"
+import prohel from './asset/prohealth.png'
+import dash from "./asset/dash.png"
 const Projects = () => {
   const projects = [
     {
-      heading: "Calculator",
-      img: calImg,
-      gitlink: 'https://github.com',
-      livelink: 'https://s-axhwin.github.io/Calculator-v2/'
-    },
-    {
-      heading: "Expense Tracker",
-      img: Exptracker,
-      gitlink: 'https://github.com/S-Axhwin/project1_expTracker',
-      livelink: 'https://s-axhwin.github.io/project1_expTracker/'
-    },
-    {
       heading: "Job Portal",
-      img: Job,
-      gitlink: 'https://github.com/S-Axhwin/job_portal',
-      livelink: 'https://s-axhwin.github.io/job_portal/'
+      img: jobport1,
+      gitlink: 'https://github.com/S-Axhwin/OffClient',
+      livelink: 'https://s-axhwin.github.io/OffClient/'
+    },
+    {
+      heading: "Pro Health",
+      img: prohel,
+      gitlink: 'https://github.com/S-Axhwin/Pro-Health',
+      livelink: 'https://s-axhwin.github.io/Pro-Health/'
+    },
+    {
+      heading: "dashboard",
+      img: dash,
+      gitlink: 'https://github.com/S-Axhwin/Pro-Health',
+      livelink: 'https://s-axhwin.github.io/Pro-Health/'
     },
   ];
   return (
     <>
-    <Navbar/>
     <section id="projects" >
       <p className="section__text__p1">Browse My Recent</p>
       <h1 className="title">Projects</h1>

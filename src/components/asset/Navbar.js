@@ -4,11 +4,12 @@ import {Link} from 'react-router-dom'
 
 
 function Navbar({ place }) {
-  function toggleMenu() {
+  function toggleMenu(state) {
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
     menu.classList.toggle("open");
     icon.classList.toggle("open");
+    
   }
   return (
     <>
@@ -25,12 +26,12 @@ function Navbar({ place }) {
     <nav id="hamburger-nav">
       <div className="logo"> <b>ASH</b></div>
       <div className="hamburger-menu">
-        <div className="hamburger-icon" onClick={()=>toggleMenu()}>
+        <div className="hamburger-icon" onClick={()=>toggleMenu("open")}>
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <div className="menu-links">
+        <div className="menu-links" onClick={() => toggleMenu("close")}>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/projects'>Projects</Link></li>
           <li><Link to='/contact'>Contact</Link></li>

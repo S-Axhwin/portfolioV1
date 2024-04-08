@@ -7,7 +7,6 @@ import './asset/contact.css'
 const Contact = () => {
   return (
     <>
-    <Navbar/>
     <section id="contact" style={{height: "100vh"}}>
     <p className="section__text__p1">Get in Touch</p>
     <h1 className="title">Contact Me</h1>
