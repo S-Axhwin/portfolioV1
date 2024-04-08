@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from './asset/Navbar'
 import Skill from './asset/Skill'
 import Herosection from './asset/Herosection'
+import Exp from './asset/Exp'
 import 'bootstrap/dist/css/bootstrap.css';
+import Exp2 from './asset/Exp2'
 
 
 const Home = () => {
@@ -29,12 +31,10 @@ const Home = () => {
     <>
     <Navbar place={'Home'} />
     <Herosection/>
-    <div className="row" style={{margin: "20px"}}>
-    {skills.map((value, index)=>{
-      return <Skill key={index} exp={value.exp} skill={value.skill} details={value.details}/>
-    })}
-    </div>
+    <Exp/>
+    <Exp2></Exp2>
     </>
+
   )
 }
 

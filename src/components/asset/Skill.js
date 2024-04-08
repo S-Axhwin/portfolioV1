@@ -10,7 +10,7 @@ const Skill = ({skill, exp, details}) => {
         <h5 className="card-title">{skill}</h5>
         <p className="card-text">({exp})</p>
         <p className="card-text">{details}</p>
-        <a href=""  className='btn' id="btn">Go somewhere</a>
+        <a href="https://github.com/S-Axhwin" target='_black'  className='btn' id="btn">View Project</a>
       </div>
     </div>
     </div>
