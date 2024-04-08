@@ -18,7 +18,7 @@ const Contact = () => {
           alt="Email icon"
           className="icon contact-icon email-icon"
         />
-        <p style={{padding: 0}}><a style={{textDecoration: "none", color:'black'}} href="mailto:examplemail@gmail.com">spashwin.s.p3@gmail.com</a></p>
+        <p style={{padding: 0}}><a style={{textDecoration: "none", color:'black'}} href="mailto:spashwin.s.p3@gmail.com">spashwin.s.p3@gmail.com</a></p>
       </div>
       <div className="contact-info-container">
         <img
