@@ -1,12 +1,15 @@
 {
   "files": {
     "main.css": "/portfolioV1/static/css/main.7404267a.css",
-    "main.js": "/portfolioV1/static/js/main.df2f3f32.js",
+    "main.js": "/portfolioV1/static/js/main.eca4bdbd.js",
     "static/media/jobPro.png": "/portfolioV1/static/media/jobPro.46fab70164c1711abb29.png",
+    "static/media/dash.png": "/portfolioV1/static/media/dash.d3e53585cc9a7320219c.png",
+    "static/media/jobport1.png": "/portfolioV1/static/media/jobport1.6af2aa62076981b0452b.png",
     "static/media/resume.pdf": "/portfolioV1/static/media/resume.c85fa39c00a17ee73e9f.pdf",
     "static/media/pro.png": "/portfolioV1/static/media/pro.988246015c4701d98abf.png",
     "static/media/profilepic.jpeg": "/portfolioV1/static/media/profilepic.ece77ca41db19582f6d5.jpeg",
     "static/media/expTrack.png": "/portfolioV1/static/media/expTrack.d662543c7e45ddf9de7d.png",
+    "static/media/prohealth.png": "/portfolioV1/static/media/prohealth.397fc3da98e20345633f.png",
     "static/media/caImg.png": "/portfolioV1/static/media/caImg.1b84d895a1f1ff71f595.png",
     "static/media/email.png": "/portfolioV1/static/media/email.761df3bc69bdc631bd2f.png",
     "static/media/checkmark.png": "/portfolioV1/static/media/checkmark.86728d9a224a2c7c95d4.png",
@@ -14,10 +17,10 @@
     "static/media/linkedin.png": "/portfolioV1/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/portfolioV1/index.html",
     "main.7404267a.css.map": "/portfolioV1/static/css/main.7404267a.css.map",
-    "main.df2f3f32.js.map": "/portfolioV1/static/js/main.df2f3f32.js.map"
+    "main.eca4bdbd.js.map": "/portfolioV1/static/js/main.eca4bdbd.js.map"
   },
   "entrypoints": [
     "static/css/main.7404267a.css",
-    "static/js/main.df2f3f32.js"
+    "static/js/main.eca4bdbd.js"
   ]
 }
